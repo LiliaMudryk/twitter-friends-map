@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<h1>Find out location of your twitter friends</h1>
+<form action="/generate_map" method="post">
+    <input name="screen_name" placeholder="Screen name" type="text">
+    <input name="bearer_token" placeholder="Bearer token" type="text">
+    <input type="submit" value="Generate map">
+</form>
+{% endblock %}

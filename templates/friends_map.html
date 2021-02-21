@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b2804c954a944c27a5ab3ab770ad239f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_b2804c954a944c27a5ab3ab770ad239f" ></div>
+        
+</body>
+<script>    
+    
+            var map_b2804c954a944c27a5ab3ab770ad239f = L.map(
+                "map_b2804c954a944c27a5ab3ab770ad239f",
+                {
+                    center: [0, 0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 1,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_403f76bc37d44d60af193bca53caab64 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_b2804c954a944c27a5ab3ab770ad239f);
+        
+    
+            var marker_1b88dff80f7b4d72848b2158f9c848a4 = L.marker(
+                [40.7127281, -74.0060152],
+                {}
+            ).addTo(map_b2804c954a944c27a5ab3ab770ad239f);
+        
+    
+        var popup_3ca47ba4cbff4f2aafe57c25af533a8d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_40f7611b07834e1895646663b4cc337b = $(`<div id="html_40f7611b07834e1895646663b4cc337b" style="width: 100.0%; height: 100.0%;">BillClinton, New York, NY</div>`)[0];
+            popup_3ca47ba4cbff4f2aafe57c25af533a8d.setContent(html_40f7611b07834e1895646663b4cc337b);
+        
+
+        marker_1b88dff80f7b4d72848b2158f9c848a4.bindPopup(popup_3ca47ba4cbff4f2aafe57c25af533a8d)
+        ;
+
+        
+    
+    
+            var marker_df2588126ca54a3bbdae558f066db455 = L.marker(
+                [36.7014631, -118.755997],
+                {}
+            ).addTo(map_b2804c954a944c27a5ab3ab770ad239f);
+        
+    
+        var popup_7628f96798b74b1abeae728b463593f7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3bef346ceab5448cb49615e9b8952a63 = $(`<div id="html_3bef346ceab5448cb49615e9b8952a63" style="width: 100.0%; height: 100.0%;">KamalaHarris, California</div>`)[0];
+            popup_7628f96798b74b1abeae728b463593f7.setContent(html_3bef346ceab5448cb49615e9b8952a63);
+        
+
+        marker_df2588126ca54a3bbdae558f066db455.bindPopup(popup_7628f96798b74b1abeae728b463593f7)
+        ;
+
+        
+    
+    
+            var marker_6db78a2c0c514ccfa06a2e7b03860bb6 = L.marker(
+                [42.3788774, -72.032366],
+                {}
+            ).addTo(map_b2804c954a944c27a5ab3ab770ad239f);
+        
+    
+        var popup_2b4cbf884f014543ab24d3b050796f64 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a9f24ecf99bf4252b6cc1e06e8c0ef4d = $(`<div id="html_a9f24ecf99bf4252b6cc1e06e8c0ef4d" style="width: 100.0%; height: 100.0%;">DevalPatrick, Massachusetts</div>`)[0];
+            popup_2b4cbf884f014543ab24d3b050796f64.setContent(html_a9f24ecf99bf4252b6cc1e06e8c0ef4d);
+        
+
+        marker_6db78a2c0c514ccfa06a2e7b03860bb6.bindPopup(popup_2b4cbf884f014543ab24d3b050796f64)
+        ;
+
+        
+    
+    
+            var marker_8700648af32540e6817964c0f3f2cd74 = L.marker(
+                [38.8950368, -77.0365427],
+                {}
+            ).addTo(map_b2804c954a944c27a5ab3ab770ad239f);
+        
+    
+        var popup_7bd8a083f68f4372a0c866e5e349d904 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_68d4132f92fa40199ecf44e9bd82f360 = $(`<div id="html_68d4132f92fa40199ecf44e9bd82f360" style="width: 100.0%; height: 100.0%;">justinsink, Washington, DC</div>`)[0];
+            popup_7bd8a083f68f4372a0c866e5e349d904.setContent(html_68d4132f92fa40199ecf44e9bd82f360);
+        
+
+        marker_8700648af32540e6817964c0f3f2cd74.bindPopup(popup_7bd8a083f68f4372a0c866e5e349d904)
+        ;
+
+        
+    
+</script>

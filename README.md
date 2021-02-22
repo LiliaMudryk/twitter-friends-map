@@ -5,3 +5,6 @@ To use this program you neeed to have twitter account and twitter bearer token.
 To use the programm, you need to run twitter_friends_map.py
 ![Знімок екрана (51)](https://user-images.githubusercontent.com/76658392/108750449-b2eef800-7549-11eb-9811-5f8cbdd73188.png)
 
+![Знімок екрана (52)](https://user-images.githubusercontent.com/76658392/108750536-d023c680-7549-11eb-9cfa-f8f7430976b3.png)
+
+

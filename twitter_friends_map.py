@@ -63,6 +63,8 @@ def build_map():
     Returns map with markers of friends location.
     If Keyerror returns 'failure.html'
     '''
+    if not (request.form.get('screen_name') or request.form.get('bearer_token')):
+        return render_template("failure.html")
     try:
         user_name = request.form.get('screen_name')
         token = request.form.get('bearer_token')
